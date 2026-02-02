@@ -216,21 +216,21 @@ export default function Page() {
     const phrases = [
       "No",
       "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
+      "Baby Really sure?",
+      "Panu Think again!",
+      "Last chance Pillu!",
+      "Surely not Panu?",
       "You might regret this!",
       "Give it another thought!",
       "Are you absolutely certain?",
       "This could be a mistake!",
-      "U Have a heart!💕",
+      "U Have a heart Baby!💕",
       "Don't be so cold!",
       "Wouldn't you reconsider?",
       "Is that your final answer?",
       "You're breaking my heart ;(",
       "But... why? 😢",
-      "Please, pretty please? 💖",
+      "Please, pretty please panu ? 💖",
       "I can't take this! 😫",
       "Are you sure you want to do this to me? 😢",
       "You're gonna hurt my feelings! 😥",
@@ -247,7 +247,7 @@ export default function Page() {
   useEffect(() => {
     if (yesPressed && noCount < 4 && !popupShown) {
       Swal.fire({
-        title: "I love you sooo Much!!!❤️, You’ve stolen my heart completely!!! 🥰💖 But itni pyaari ladki aur itni jaldi haan? Thoda aur nakhre karke mujhe tarpaao na! 🥰✨",
+        title: "I love you sooo Much!!! Panu❤️, You’ve stolen my heart completely!!! 🥰💖 But itni pyaari ladki aur itni jaldi haan? Thoda aur nakhre karke mujhe tarpaao naaaaaaaaaaaaaaaa! 🥰✨",
         showClass: {
           popup: `
             animate__animated
@@ -274,7 +274,7 @@ export default function Page() {
   useEffect(() => {
     if (yesPressed && noCount > 3 && !yespopupShown) {
       Swal.fire({
-        title: "I love you so much!! ❤️ You are my everything, my joy, my forever. Every moment with you is a memory I’ll cherish forever, and my heart beats only for you.</br> Will you be the love of my life forever?",
+        title: "I love you so much!! Panuuuu From Aapka Shashank ❤️ You are my everything, my joy, my forever. Every moment with you is a memory I’ll cherish forever, and my heart beats only for you.</br>Meri Bachho Ki Ma Banogi?",
         width: 800,
         padding: "2em",
         color: "#716add",
@@ -393,15 +393,15 @@ const Footer = () => {
   return (
     <a
       className="fixed bottom-2 right-2 backdrop-blur-md opacity-80 hover:opacity-95 border p-1 rounded border-rose-300"
-      href="https://github.com/UjjwalSaini07"
+      
       target="_blank"
       rel="noopener noreferrer"
     >
-      Made with{" "}
+      {" "}
       <span role="img" aria-label="heart">
         ❤️
       </span>
-      {" "}by Ujjwal
+      {" "}
     </a>
   );
 };
